@@ -1,0 +1,94 @@
+<html>
+<title>LueurTech</title>
+<head>
+<style>
+html { 
+  background: url(tech.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  text
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+body{
+text-align:center;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} 
+input {
+text-align: center;
+}
+input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 18px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 35px ,5px ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  font-size:25px;
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+</style>
+</head>
+<body>
+<ul>
+ 
+  <li style="float:right"><a href="#contact">Contact Us</a></li>
+  <li style="float:right"><a href="#home">Home</a></li>
+</ul>
+<h1 style="background-color:tranparent; font-size:100; color:blue ;text-align: center;">LueurTech Software Solutions</h1>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Username</label>
+    <input type="text"  name="Username" placeholder="Your username" required maxlength="30"><br>
+    <label for="lname">Password</label>
+    <input type="password"  name="Password" placeholder="Your password" pattern="{5,12}"  title="Please enter your password according to command" required maxlength="12"><br>
+    <input type="submit" value="Submit" style="margin-left: 100px;">
+  </form>
+</div>
+</body>
+</html>
